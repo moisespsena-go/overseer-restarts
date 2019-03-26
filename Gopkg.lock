@@ -52,15 +52,16 @@
   revision = "c2b33e84"
 
 [[projects]]
-  branch = "master"
-  digest = "1:e571de6b22dfc9d9f0b40935df2cf7eda64bba040bc0e2dc242fbac6fb5fb5d6"
+  branch = "crontab"
+  digest = "1:8fed4897db266eca7c4a5d684055728d04b84965e9a568d5de63299e2b86dd1f"
   name = "github.com/jpillora/overseer"
   packages = [
     ".",
     "fetcher",
   ]
   pruneopts = "UT"
-  revision = "9891188db5a5bdae87416218253ac3a5ed4aed8a"
+  revision = "3ad03f14f3370efefe389cc16c73bad47c378caa"
+  source = "github.com/moisespsena-go/overseer"
 
 [[projects]]
   branch = "master"
@@ -125,6 +126,14 @@
   packages = ["."]
   pruneopts = "UT"
   revision = "1efae4548023f60d7a172fead76cccf194cf45de"
+
+[[projects]]
+  digest = "1:ed615c5430ecabbb0fb7629a182da65ecee6523900ac1ac932520860878ffcad"
+  name = "github.com/robfig/cron"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "b41be1df696709bb6395fe435af20370037c0b4c"
+  version = "v1.1"
 
 [solve-meta]
   analyzer-name = "dep"
